@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Penoxycyline is Medicine
+     a simple patch to put penoxycyline 
+     in the medicine category instead
+     of drugs.  -LWM                -->
+<Patch>
+<!-- Use PatchOperationConditional in case someone has already
+     added a thingCategory for Penoxycyline.
+     If no one has, we override vanilla using Inherit="false"
+     (because it's from an Abstract def) and put our own in. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="Penoxycyline"]/thingCategories</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Penoxycyline"]/thingCategories</xpath>
+      <value><li>Medicine</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Penoxycyline"]</xpath>
+				<value>
+					<thingCategories Inherit="false"><li>Medicine</li></thingCategories>
+				</value>
+    </nomatch>
+  </Operation>
+</Patch>

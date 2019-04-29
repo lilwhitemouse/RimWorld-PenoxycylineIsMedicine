@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<name>Penoxycyline Is Medicine</name>
+<author>Little White Mouse</author>
+<supportedVersions>
+  <li>1.0</li>
+</supportedVersions>
+<description>
+Penoxycyline Is Medicine
+
+I have medicine cabinets in my Deep Storage mod, and it's annoying to have to go hunting for penoxycyline in the "drugs" category.  Yes.  It's a drug.  No, I want it with medicine.
+
+Lo.  Penoxycyline is a preventative medicine now.
+
+(This removes the default Drugs category for PenEtc and adds Medicine.  Should be compatible with anything else that puts Penoxycyline in a different category, if you want it in Medicine too.)
+
+--LWM
+</description>
+<url>https://github.com/lilwhitemouse/RimWorld-PenoxycylineIsMedicine</url>
+</ModMetaData>
