@@ -14,4 +14,6 @@ Installation:
 
 On steam at https://steamcommunity.com/sharedfiles/filedetails/?id=1727229946
 
+Licenced under LGPL
+
 --LWM
