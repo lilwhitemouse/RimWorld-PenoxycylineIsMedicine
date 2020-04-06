@@ -2,8 +2,10 @@
 <ModMetaData>
 <name>Penoxycyline Is Medicine</name>
 <author>Little White Mouse</author>
+<packageId>LWM.PenoxycylineIsMedicine</packageId>
 <supportedVersions>
   <li>1.0</li>
+  <li>1.1</li>
 </supportedVersions>
 <description>
 Penoxycyline Is Medicine
@@ -12,7 +14,7 @@ I have medicine cabinets in my Deep Storage mod, and it's annoying to have to go
 
 Lo.  Penoxycyline is a preventative medicine now.
 
-(This removes the default Drugs category for PenEtc and adds Medicine.  Should be compatible with anything else that puts Penoxycyline in a different category, if you want it in Medicine too.)
+This removes the default Drugs category for PenEtc and adds "Medicine." If you have another mod that puts Penoxycyline into some category, and you want to keep it in that category, try loading this second.
 
 --LWM
 </description>
